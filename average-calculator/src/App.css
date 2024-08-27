@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+h1, h2 {
+  color: #61dafb;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #9fa3a6;
+  cursor: not-allowed;
+}
+
+select {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+}
